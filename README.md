@@ -19,59 +19,48 @@ The project evaluates three key data quality dimensions:
 
 ---
 
-First install:
-pip install pandas numpy seaborn matplotlib
+1. Install dependencies:
+    pip install pandas numpy seaborn matplotlib
 
-Then: 
-python scripts/analysis.py
+
+2. Run the analysis:
+     python scripts/analysis.py
+   
 
 Check outputs in the /results folder:
 
-missing_summary.csv → Completeness evidence.
-
-income_by_sex.png → Bias/fairness visualization by sex. 
-
-
-Results Summary: 
-Completeness: Missing values detected in workclass, occupation, and native-country.
-
-Validity: No invalid ranges or categories found → strong schema adherence.
-
-Uniqueness: No duplicate records detected.
-
-Bias/Fairness: Clear imbalance in income distribution across sex and race groups.
+  missing_summary.csv → Completeness evidence
+  
+  income_by_sex.png → Bias/fairness visualization by sex
+  
+  income_by_race.png → Bias/fairness visualization by race
+  
+  Other CSVs and plots as generated  
 
 
+Results Summary
+  Completeness: Missing values detected in workclass, occupation, and native-country.
+  
+  Validity: No invalid ranges or categories found → strong schema adherence.
+  
+  Uniqueness: No duplicate records detected.
+  
+  Bias/Fairness: Clear imbalance in income distribution across sex and race groups. 
 
-Dataset Information: 
-Source: UCI Adult Dataset
 
-Instances: ~48,842 rows
-
-Attributes: 14 features + income label
-
-Common uses: Fairness and bias analysis in machine learning models. 
-
-
-AI Tool Use Disclosure
-Copilot was used to assist with:
-
-Writing Python code for data quality checks.
-
-Generating plots for bias/fairness analysis.
-
-Structuring this README file.
-
-All outputs were verified and documented manually to ensure accuracy and reproducibility. 
+Dataset Information
+  Source: UCI Adult Dataset
+  
+  Instances: ~48,842 rows
+  
+  Attributes: 14 features + income label
+  
+  Common uses: Fairness and bias analysis in machine learning. 
 
 
 References
-UCI Machine Learning Repository – Adult Dataset.
-
-COMP331 Lecture Notes (Week 10: Data Warehousing, Week 11: Data Mining).
-
-Relevant academic papers on bias and fairness in machine learning. 
-
----
-
-
+  UCI Machine Learning Repository – Adult Dataset
+  
+  COMP331 Lecture Notes (Week 10: Data Warehousing, Week 11: Data Mining)
+  
+  Barocas, S., Hardt, M., & Narayanan, A. (2019). Fairness and Machine Learning
