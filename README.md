@@ -72,15 +72,6 @@ COMP331 Lecture Notes (Week 10: Data Warehousing, Week 11: Data Mining).
 
 Relevant academic papers on bias and fairness in machine learning. 
 
-
-
-
 ---
 
-👉 This README is **ready to paste** into your repo. It explains the project, structure, how to run it, results, dataset info, AI disclosure, and references.  
 
-Would you like me to also **draft a short “Results” section in Markdown with tables** (e.g., missing values summary, bias percentages) so you can paste those into the README alongside the plots? 
-
-income_by_race.png → Bias/fairness visualization by race.
-
-Other CSVs and plots as generated.
